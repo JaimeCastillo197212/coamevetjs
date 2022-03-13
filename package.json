@@ -4,7 +4,7 @@
   "description": "WebPage",
   "main": "index.html",
   "scripts": {
-    "dev": "lite-sever",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
