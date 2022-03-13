@@ -5,13 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
     <title>COAMEVET</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">COAMEVET</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="./index.html" class="nav-link">Home|</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Libre</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <h1>Hello, world!</h1>
+    <div class="jumbotron">
+        <h1>Cooperativa American Veterinaria</h1>
+        <h1>COAMEVET</h1>
+    </div>
 
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+            </ol>
+        </nav>
+
+        <div class="d-flex flex-column">
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pregunta"
+                aria-expanded="false" aria-controls="multiCollapse1">Te interesa el beneficio cooperativo?</button>
+        </div>
+
+        <div class="collapse multi-collapse" id="pregunta">
+            <p> Tenemos servicios de ahoro y credito</p>
+            <button class="btn btn-primary" type="button">Contactanos</button>
+        </div>
+
+
+        <div class="col-md">
+            <h2>El Cooperativismo</h2>
+            <p>El cooperativismo es un sistema económico y social, basado en la libertad, la igualdad, la participación
+                y la
+                solidaridad.</p>
+            <p>La cooperación es un sistema práctico de armonizar los intereses humanos recibiendo ayuda y colaboración
+                de
+                los demás y ofreciéndola en reprocidad.</p>
+
+            <p>El cooperativismo es el resultado de un largo proceso histórico en el cual el hombre ha demostrado su
+                espíritu asociativo y solidario, generando diversas formas de organización social y económica que
+                teniendo
+                como base
+                la cooperación, persiguen la realización de la justicia y la igualdad a través de la acción económica y
+                la
+                promoción humana.</p>
+        </div>
+
+        <div class="col-md-3">
+            <h2>Valores Cooperativos</h2>
+            <p>Los principios organizativos del movimiento cooperativo a su vez se fundamentan en valores éticos
+                universales de cooperación y responsabilidad, como son:</p>
+            <ol>
+                <li>Apoyo mutuo: es el accionar de un grupo para la solución de problemas
+                    comunes.</li>
+                <li>Esfuerzo propio: es la motivación, la fuerza de voluntad de los miembros con el fin de alcanzar
+                    metas previstas.</li>
+                <li>Responsabilidad: nivel de desempeño en el cumplimiento de las actividades para el logro de metas,
+                    sintiendo un compromiso moral con los asociados .</li>
+                <li>Democracia directa: toma de decisiones colectivas por los asociados (mediante la participación y el
+                    protagonismo) en lo referente a la gestión de la cooperativa.</li>
+                <li>Igualdad: todos los asociados tienen iguales deberes y derechos.</li>
+                <li>Equidad: justa distribución de los excedentes entre los miembros de la cooperativa.</p>
+                <li>Solidaridad: apoyar, cooperar en la solución de problemas de los asociados, la familia y la
+                    comunidad.
+                </li>
+            </ol>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-4 d-flex flex-column">
+                <a href="#">Que Hacemos</a>
+                <a href="#">Historia</a>
+                <a href="#">Equipo Directivo</a>
+                <a href="#">Protección de Datos</a>
+            </div>
+            <div class="col-sm-4">
+                <address>
+                    <p>
+                    <h3>Oficina Principal</h3>
+                    </p>
+                    <p>Calle 24D #40-28</p>
+                    <p>Bogotá, Colombia</p>
+                    <p>601 2 44 46 85</p>
+                    <p>coamevet@gmail.com</p>
+                </address>
+            </div>
+            <div class="col-sm-4 d-flex flex-column align-items-end">
+                <a href="#">Nosotros</a>
+                <a href="#">Acerca de ...</a>
+                <a href="#">Contacto</a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
